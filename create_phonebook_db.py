@@ -35,7 +35,7 @@ def add_entries_table(cur):
     #Create the table.
     cur.execute('''CREATE TABLE Entries (PhoneID INTEGER PRIMARY KEY NOT NULL,
                                         Name TEXT,
-                                        Number REAL)''')
+                                        Number TEXT)''')
 
 
 # The display_entries function displays the contents of the Entries table:
